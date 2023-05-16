@@ -1,0 +1,51 @@
+/* gaya.css */
+
+h2{
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Tabel Mahasiswa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #cfd8dc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Tombol Tambah Data dan Cetak Laporan */
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .btn-container .btn {
+    margin-right: 10px;
+  }
+  
+  /* Tombol Aksi pada Tabel */
+  .table-actions .btn {
+    margin-right: 5px;
+  }
+  
